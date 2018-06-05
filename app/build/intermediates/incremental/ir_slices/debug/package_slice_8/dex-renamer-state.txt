@@ -1,0 +1,4 @@
+#Mon Jun 04 21:03:28 COT 2018
+base.0=/home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/build/intermediates/transforms/dexMerger/debug/9
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Jonathan\\Desktop\\Visual\\android4927508312497646849sketch\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-b+sr+Latn\\values-b+sr+Latn.xml",
+            "outputFile": "/home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Jonathan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\21678a71fdc0b4e1bfa5900c42b1f8fb\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
+                    "source": "/home/jairo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/d30d3c6f1779d30b961ee13266e1d6b2/res/values-b+sr+Latn/values-b+sr+Latn.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

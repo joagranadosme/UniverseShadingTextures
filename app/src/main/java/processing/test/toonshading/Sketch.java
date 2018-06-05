@@ -48,7 +48,12 @@ public class Sketch extends PApplet {
 
     //Shaders variables
     PShader toon;
-    boolean shaderEnabled = false;
+    boolean shaderEnabled = true;
+    PImage label;
+    PShape globe;
+    float angle;
+
+
 
     public void settings() {
         fullScreen(P3D);
@@ -57,10 +62,12 @@ public class Sketch extends PApplet {
     public void setup() {
 
         orientation(LANDSCAPE);
-
+        label = loadImage("world.jpg");
         noStroke();
         fill(204);
-        toon = loadShader("ToonFrag.glsl", "ToonVert.glsl");
+        toon = loadShader("texlightfrag.glsl", "texlightvert.glsl");
+        globe = createShape(SPHERE, 200);
+        globe.setTexture(label);
 
     }
 
@@ -70,14 +77,26 @@ public class Sketch extends PApplet {
             shader(toon);
         }
 
+        background(0, 0 , 0);
+
+        shader(toon);
+
+        pointLight(255, 255, 255, width/2, 0, 200);
+
+        translate(width/2, height/2);
+        rotateY(angle);
+        shape(globe);
+        angle += 0.01;
+
+        /*
         noStroke();
         background(0);
         float dirY = (mouseY / PApplet.parseFloat(height) - 0.5f) * 2;
         float dirX = (mouseX / PApplet.parseFloat(width) - 0.5f) * 2;
-        directionalLight(204, 204, 204, -dirX, -dirY, -1);
+        //directionalLight(204, 204, 204, -dirX, -dirY, -1);
         translate(width/2, height/2);
         sphere(120);
-
+        */
     }
 
     //Class for receive the events from Accelerometer

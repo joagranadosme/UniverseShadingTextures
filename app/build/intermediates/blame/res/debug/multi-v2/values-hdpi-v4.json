@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Jonathan\\Desktop\\Visual\\android4927508312497646849sketch\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "outputFile": "/home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Jonathan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\21678a71fdc0b4e1bfa5900c42b1f8fb\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "source": "/home/jairo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/d30d3c6f1779d30b961ee13266e1d6b2/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

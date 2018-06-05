@@ -1,0 +1,4 @@
+#Mon Jun 04 17:58:31 COT 2018
+base.0=/home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/build/intermediates/transforms/dex/release/0
+path.0=classes.dex
+renamed.0=classes.dex

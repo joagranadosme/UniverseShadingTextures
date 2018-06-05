@@ -1,0 +1,27 @@
+#Internal package file, do not edit.
+#Mon Jun 04 17:58:32 COT 2018
+2.base=/home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/build/intermediates/assets/release
+5.set=DEX
+0.path=ToonVert.glsl
+2.baseType=DIRECTORY
+3.base=/home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/build/intermediates/assets/release
+2.set=ASSET
+1.path=ToonFrag.glsl
+4.base=/home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/build/intermediates/assets/release
+count=6
+5.baseType=DIRECTORY
+2.path=textvert.glsl
+5.base=/home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/build/intermediates/transforms/dex/release/0
+4.set=ASSET
+3.path=world.jpg
+3.baseType=DIRECTORY
+1.set=ASSET
+4.path=textfrag.glsl
+1.baseType=DIRECTORY
+5.path=classes.dex
+0.base=/home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/build/intermediates/assets/release
+0.baseType=DIRECTORY
+3.set=ASSET
+1.base=/home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/build/intermediates/assets/release
+4.baseType=DIRECTORY
+0.set=ASSET

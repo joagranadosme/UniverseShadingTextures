@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Jonathan\\Desktop\\Visual\\android4927508312497646849sketch\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w205dp-v13\\values-w205dp-v13.xml",
+            "outputFile": "/home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w205dp-v13/values-w205dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Jonathan\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.0.5.aar\\71e830e4e9dcaec10d6a413e97b895d5\\res\\values-w205dp-v13\\values.xml",
+                    "source": "/home/jairo/.gradle/caches/transforms-1/files-1.1/wearable-2.0.5.aar/77d217e361679130af1357607002de85/res/values-w205dp-v13/values.xml",
                     "from": {
                         "startLines": "4,5,6,7",
                         "startColumns": "0,0,0,0",

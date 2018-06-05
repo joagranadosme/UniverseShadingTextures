@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/android4927508312497646849sketch.iml" filepath="$PROJECT_DIR$/android4927508312497646849sketch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UniverseShadingTextures.iml" filepath="$PROJECT_DIR$/UniverseShadingTextures.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

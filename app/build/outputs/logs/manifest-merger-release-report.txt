@@ -1,0 +1,165 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml:2:1-12:12
+INJECTED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml:2:1-12:12
+INJECTED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml:2:1-12:12
+INJECTED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:design:25.3.1] /home/jairo/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5f8ea9f6c42ec87a6acfd8748e7dead6/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/jairo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/a6bde9c6e2295e8f7e087cef9aedb8c9/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.support:wearable:2.0.5] /home/jairo/.gradle/caches/transforms-1/files-1.1/wearable-2.0.5.aar/0c001c1d6704f1cbd71f68aea82daef7/AndroidManifest.xml:2:1-10:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/jairo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/70577963094dae5d20633421f5467d93/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/e88edd3167a33def78e700a804f0c95f/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:25.3.1] /home/jairo/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/705f686761ec500c5f8a5bf9d1fe6fb4/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0.aar/84b187edd937b2205f9d64ad13776b05/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0.aar/9cd771ba1d8a196c5a30bb3c24ffdde7/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0.aar/5b98952775bdc30a79902b34c49aa57e/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0.aar/b97904559818a306fc0ab75f16b7e393/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.0.aar/76eb897104aa92ecc368cfb57050fcc1/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-core-ui:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0.aar/366dc4d6664f5a5cc1bd0a0972dadb57/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:percent:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/percent-26.0.0.aar/131b028f09a99fa5cbb7890491e79c96/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-compat:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/fd5eeb438d7da41ea95385819095720b/AndroidManifest.xml:17:1-31:12
+INJECTED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml:2:1-12:12
+INJECTED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml:2:1-12:12
+INJECTED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml:2:1-12:12
+	package
+		ADDED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml:2:120-157
+		INJECTED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml:2:94-119
+		INJECTED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml:2:70-93
+		INJECTED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml:3:5-73
+INJECTED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml:3:5-73
+INJECTED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml:3:5-73
+MERGED from [com.android.support:design:25.3.1] /home/jairo/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5f8ea9f6c42ec87a6acfd8748e7dead6/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.3.1] /home/jairo/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5f8ea9f6c42ec87a6acfd8748e7dead6/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/jairo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/a6bde9c6e2295e8f7e087cef9aedb8c9/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/jairo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/a6bde9c6e2295e8f7e087cef9aedb8c9/AndroidManifest.xml:21:5-23:78
+MERGED from [com.google.android.support:wearable:2.0.5] /home/jairo/.gradle/caches/transforms-1/files-1.1/wearable-2.0.5.aar/0c001c1d6704f1cbd71f68aea82daef7/AndroidManifest.xml:4:3-70
+MERGED from [com.google.android.support:wearable:2.0.5] /home/jairo/.gradle/caches/transforms-1/files-1.1/wearable-2.0.5.aar/0c001c1d6704f1cbd71f68aea82daef7/AndroidManifest.xml:4:3-70
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/jairo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/70577963094dae5d20633421f5467d93/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/jairo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/70577963094dae5d20633421f5467d93/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/e88edd3167a33def78e700a804f0c95f/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/e88edd3167a33def78e700a804f0c95f/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] /home/jairo/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/705f686761ec500c5f8a5bf9d1fe6fb4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.3.1] /home/jairo/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/705f686761ec500c5f8a5bf9d1fe6fb4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0.aar/84b187edd937b2205f9d64ad13776b05/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0.aar/84b187edd937b2205f9d64ad13776b05/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0.aar/9cd771ba1d8a196c5a30bb3c24ffdde7/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0.aar/9cd771ba1d8a196c5a30bb3c24ffdde7/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0.aar/5b98952775bdc30a79902b34c49aa57e/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0.aar/5b98952775bdc30a79902b34c49aa57e/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0.aar/b97904559818a306fc0ab75f16b7e393/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0.aar/b97904559818a306fc0ab75f16b7e393/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:recyclerview-v7:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.0.aar/76eb897104aa92ecc368cfb57050fcc1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.0.aar/76eb897104aa92ecc368cfb57050fcc1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0.aar/366dc4d6664f5a5cc1bd0a0972dadb57/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0.aar/366dc4d6664f5a5cc1bd0a0972dadb57/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:percent:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/percent-26.0.0.aar/131b028f09a99fa5cbb7890491e79c96/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:percent:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/percent-26.0.0.aar/131b028f09a99fa5cbb7890491e79c96/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/fd5eeb438d7da41ea95385819095720b/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/fd5eeb438d7da41ea95385819095720b/AndroidManifest.xml:21:5-23:58
+INJECTED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml:3:5-73
+INJECTED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml:3:5-73
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] /home/jairo/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5f8ea9f6c42ec87a6acfd8748e7dead6/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		ADDED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml:3:42-71
+		INJECTED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml:3:15-41
+		INJECTED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml
+application
+ADDED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml:4:5-11:19
+MERGED from [com.android.support:design:25.3.1] /home/jairo/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5f8ea9f6c42ec87a6acfd8748e7dead6/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:25.3.1] /home/jairo/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5f8ea9f6c42ec87a6acfd8748e7dead6/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/jairo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/a6bde9c6e2295e8f7e087cef9aedb8c9/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/jairo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/a6bde9c6e2295e8f7e087cef9aedb8c9/AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.support:wearable:2.0.5] /home/jairo/.gradle/caches/transforms-1/files-1.1/wearable-2.0.5.aar/0c001c1d6704f1cbd71f68aea82daef7/AndroidManifest.xml:6:3-8:17
+MERGED from [com.google.android.support:wearable:2.0.5] /home/jairo/.gradle/caches/transforms-1/files-1.1/wearable-2.0.5.aar/0c001c1d6704f1cbd71f68aea82daef7/AndroidManifest.xml:6:3-8:17
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/jairo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/70577963094dae5d20633421f5467d93/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/jairo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/70577963094dae5d20633421f5467d93/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/e88edd3167a33def78e700a804f0c95f/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/e88edd3167a33def78e700a804f0c95f/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] /home/jairo/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/705f686761ec500c5f8a5bf9d1fe6fb4/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] /home/jairo/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/705f686761ec500c5f8a5bf9d1fe6fb4/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0.aar/84b187edd937b2205f9d64ad13776b05/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0.aar/84b187edd937b2205f9d64ad13776b05/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0.aar/9cd771ba1d8a196c5a30bb3c24ffdde7/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0.aar/9cd771ba1d8a196c5a30bb3c24ffdde7/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0.aar/5b98952775bdc30a79902b34c49aa57e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0.aar/5b98952775bdc30a79902b34c49aa57e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0.aar/b97904559818a306fc0ab75f16b7e393/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0.aar/b97904559818a306fc0ab75f16b7e393/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:recyclerview-v7:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.0.aar/76eb897104aa92ecc368cfb57050fcc1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.0.aar/76eb897104aa92ecc368cfb57050fcc1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0.aar/366dc4d6664f5a5cc1bd0a0972dadb57/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0.aar/366dc4d6664f5a5cc1bd0a0972dadb57/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:percent:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/percent-26.0.0.aar/131b028f09a99fa5cbb7890491e79c96/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:percent:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/percent-26.0.0.aar/131b028f09a99fa5cbb7890491e79c96/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/fd5eeb438d7da41ea95385819095720b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/fd5eeb438d7da41ea95385819095720b/AndroidManifest.xml:25:5-29:19
+	android:label
+		ADDED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml:4:48-72
+	android:icon
+		ADDED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml:4:18-47
+activity#processing.test.toonshading.MainActivity
+ADDED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml:5:9-10:20
+	android:theme
+		ADDED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml:5:48-115
+	android:name
+		ADDED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml:5:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml:6:13-9:29
+action#android.intent.action.MAIN
+ADDED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml:7:17-68
+	android:name
+		ADDED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml:7:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml:8:17-76
+	android:name
+		ADDED from /home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/AndroidManifest.xml:8:27-74
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] /home/jairo/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5f8ea9f6c42ec87a6acfd8748e7dead6/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/jairo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/a6bde9c6e2295e8f7e087cef9aedb8c9/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/jairo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/a6bde9c6e2295e8f7e087cef9aedb8c9/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/jairo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/70577963094dae5d20633421f5467d93/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/jairo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/70577963094dae5d20633421f5467d93/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/e88edd3167a33def78e700a804f0c95f/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/e88edd3167a33def78e700a804f0c95f/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /home/jairo/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/705f686761ec500c5f8a5bf9d1fe6fb4/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /home/jairo/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/705f686761ec500c5f8a5bf9d1fe6fb4/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-media-compat:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0.aar/9cd771ba1d8a196c5a30bb3c24ffdde7/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0.aar/9cd771ba1d8a196c5a30bb3c24ffdde7/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0.aar/5b98952775bdc30a79902b34c49aa57e/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0.aar/5b98952775bdc30a79902b34c49aa57e/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0.aar/b97904559818a306fc0ab75f16b7e393/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0.aar/b97904559818a306fc0ab75f16b7e393/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.0.aar/76eb897104aa92ecc368cfb57050fcc1/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.0.aar/76eb897104aa92ecc368cfb57050fcc1/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0.aar/366dc4d6664f5a5cc1bd0a0972dadb57/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0.aar/366dc4d6664f5a5cc1bd0a0972dadb57/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:percent:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/percent-26.0.0.aar/131b028f09a99fa5cbb7890491e79c96/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:percent:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/percent-26.0.0.aar/131b028f09a99fa5cbb7890491e79c96/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-compat:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/fd5eeb438d7da41ea95385819095720b/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.0] /home/jairo/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/fd5eeb438d7da41ea95385819095720b/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:25.3.1] /home/jairo/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5f8ea9f6c42ec87a6acfd8748e7dead6/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] /home/jairo/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/5f8ea9f6c42ec87a6acfd8748e7dead6/AndroidManifest.xml:26:9-47
+uses-library#com.google.android.wearable
+ADDED from [com.google.android.support:wearable:2.0.5] /home/jairo/.gradle/caches/transforms-1/files-1.1/wearable-2.0.5.aar/0c001c1d6704f1cbd71f68aea82daef7/AndroidManifest.xml:7:5-88
+	android:required
+		ADDED from [com.google.android.support:wearable:2.0.5] /home/jairo/.gradle/caches/transforms-1/files-1.1/wearable-2.0.5.aar/0c001c1d6704f1cbd71f68aea82daef7/AndroidManifest.xml:7:62-86
+	android:name
+		ADDED from [com.google.android.support:wearable:2.0.5] /home/jairo/.gradle/caches/transforms-1/files-1.1/wearable-2.0.5.aar/0c001c1d6704f1cbd71f68aea82daef7/AndroidManifest.xml:7:19-61

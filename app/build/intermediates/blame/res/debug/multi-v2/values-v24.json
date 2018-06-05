@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Jonathan\\Desktop\\Visual\\android4927508312497646849sketch\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "/home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Jonathan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\21678a71fdc0b4e1bfa5900c42b1f8fb\\res\\values-v24\\values-v24.xml",
+                    "source": "/home/jairo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/d30d3c6f1779d30b961ee13266e1d6b2/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Jonathan\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.0.0.aar\\ed0359d43d93bad4b7222b79462127a7\\res\\values-v24\\values-v24.xml",
+                    "source": "/home/jairo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0.aar/dfcb53ed2c3bf75110184f99f14f5cd6/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

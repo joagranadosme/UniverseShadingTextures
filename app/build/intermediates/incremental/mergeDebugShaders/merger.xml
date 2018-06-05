@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\Jonathan\Desktop\Visual\android4927508312497646849sketch\app\src\main\shaders"/></dataSet><dataSet config="debug"><source path="C:\Users\Jonathan\Desktop\Visual\android4927508312497646849sketch\app\src\debug\shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/home/jairo/Universidad/ComputacionVisual/Project/UniverseShadingTextures/app/src/debug/shaders"/></dataSet></merger>
