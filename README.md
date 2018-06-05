@@ -17,9 +17,6 @@ y luz.
  Con el fin de proveer interactividad en la aplicación, utilizamos las herramientas que ofrecen los dispositivos móviles
  como acelerometro, giroscopio y la pantalla táctil. De esta manera la aplicacin permite realizar zoom a los elementos 
  del sistema y cambiar la orientación del movimiento del sistema.
- 
- * Interactivity
- ![Interactivity](https://github.com/joagranadosme/UniverseShadingTextures/Interactivity.jpg)
 
 ### Shaders
 
@@ -42,9 +39,9 @@ Al realizar las implementaciones previstas, obtuvimos los resultados esperados t
 ayuda de la librería del curso frames, para separar los diferentes objetos del sistema por medio de Frames. Las siguientes
 pantallas muestran el resultado final de la aplicación:
 
-![App1](https://github.com/joagranadosme/UniverseShadingTextures/App1.jpg)
+![App1](https://github.com/joagranadosme/UniverseShadingTextures/blob/master/App1.jpg)
 
-![App2](https://github.com/joagranadosme/UniverseShadingTextures/App2.jpg)
+![App2](https://github.com/joagranadosme/UniverseShadingTextures/blob/master/App2.jpg)
     
 ### Trabajo futuro
  * Implementar light shaders por medio del phong model.
