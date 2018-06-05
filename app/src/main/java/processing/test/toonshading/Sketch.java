@@ -47,11 +47,11 @@ public class Sketch extends PApplet {
     private boolean flag = false;
 
     //Frames for planets.
-    private Frame universe, sun, earth, moon;
+    private Frame universe, sun, mercury, venus, earth, moon, mars;
 
     //Shaders variables
-    PImage sunImage, earthImage, moonImage;
-    PShape sunShape, earthShape, moonShape;
+    PImage sunImage, earthImage, moonImage, mercuryImage, venusImage, marsImage;
+    PShape sunShape, earthShape, moonShape, mercuryShape, venusShape, marsShape;
     PShader light;
     int r;
 
@@ -85,20 +85,38 @@ public class Sketch extends PApplet {
         //Initialize sun
         sun = new Frame(universe, new Vector(0,0), new Quaternion());
         sunImage = loadImage( "sun.jpg");
-        sunShape = createShape(SPHERE, 100);
+        sunShape = createShape(SPHERE, 170);
         sunShape.setTexture(sunImage);
 
+        //Initialize mercury
+        mercury = new Frame(sun, new Vector(300, 0), new Quaternion());
+        mercuryImage = loadImage( "mercury.jpg");
+        mercuryShape = createShape(SPHERE, 15);
+        mercuryShape.setTexture(mercuryImage);
+
+        //Initialize venus
+        venus = new Frame(sun, new Vector(480, 0), new Quaternion());
+        venusImage = loadImage( "venus.jpg");
+        venusShape = createShape(SPHERE, 25);
+        venusShape.setTexture(venusImage);
+
         //Initialize earth
-        earth = new Frame(sun, new Vector(400, 0), new Quaternion());
+        earth = new Frame(sun, new Vector(800, 0), new Quaternion());
         earthImage = loadImage( "world.jpg");
         earthShape = createShape(SPHERE, 50);
         earthShape.setTexture(earthImage);
 
         //Initialize moon
-        moon = new Frame(earth, new Vector(100, 0), new Quaternion());
+        moon = new Frame(earth, new Vector(50, 10), new Quaternion());
         moonImage = loadImage( "moon.jpg");
         moonShape = createShape(SPHERE, 10);
         moonShape.setTexture(moonImage);
+
+        //Initialize mars
+        mars = new Frame(sun, new Vector(1000, 0), new Quaternion());
+        marsImage = loadImage( "mars.jpg");
+        marsShape = createShape(SPHERE, 35);
+        marsShape.setTexture(marsImage);
 
 
 
@@ -113,37 +131,60 @@ public class Sketch extends PApplet {
         shader(light);
         //Point light
         pointLight(255, 255, 255, width/2, height/2, 0);
-        //lightFalloff(width/2, height/2, 0.00001F);
-        //ambientLight(255, 255, 255, width/2, height/2, 0);
 
         //Display sensor values
         text("X: " + ax + "\nY: " + ay + "\nZ: " + az, 0, 0, width, height);
-
-        //Update all frames
-        updateFrames();
 
         noStroke();
 
         //Draw all frames
         push();
         Scene.applyTransformation(this.g, universe);
-        push();
-        Scene.applyTransformation(this.g, sun);
         pointLight(255, 255, 255, 0, 0, 0);
-        push();
-        Scene.applyTransformation(this.g, earth);
-        shape(earthShape);
-        push();
-        Scene.applyTransformation(this.g, moon);
-        shape(moonShape);
-        pop();
-        pop();
-        resetShader();
-        ambientLight(255, 255, 255);
-        shape(sunShape);
-        pop();
+            push();
+            Scene.applyTransformation(this.g, sun);
+                rotateY(0.03F*rotation);
+                push();
+                Scene.applyTransformation(this.g, mercury);
+                shape(mercuryShape);
+                pop();
+                rotateY(-0.03F*rotation);
+                rotateY(0.02F*rotation);
+                push();
+                Scene.applyTransformation(this.g, venus);
+                shape(venusShape);
+                pop();
+                rotateY(-0.02F*rotation);
+                rotateY(0.01F*rotation);
+                push();
+                Scene.applyTransformation(this.g, earth);
+                shape(earthShape);
+                    push();
+                    Scene.applyTransformation(this.g, moon);
+                    shape(moonShape);
+                    pop();
+                pop();
+                rotateY(-0.01F*rotation);
+                rotateY(0.005F*rotation);
+                push();
+                Scene.applyTransformation(this.g, mars);
+                shape(marsShape);
+                pop();
+                rotateY(-0.005F*rotation);
+            resetShader();
+            ambientLight(255, 255, 255);
+            shape(sunShape);
+            pop();
+
         pop();
 
+        //Update all frames
+        updateFrames();
+
+    }
+
+    public void mouseDragged() {
+        universe.setTranslation(mouseX, mouseY);
     }
 
     public void push() {
@@ -167,8 +208,11 @@ public class Sketch extends PApplet {
 
         universe.setRotation(new Quaternion(new Vector(1.0F, 0.0F, 0.0F), radians(-20F * ax)));
         sun.setRotation(new Quaternion(new Vector(0.0F, 1.0F, 0.0F), radians(0.5F * rotation)));
+        mercury.setRotation(new Quaternion(new Vector(0.0F, 1.0F, 0.0F), radians(4*rotation)));
+        venus.setRotation(new Quaternion(new Vector(0.0F, 1.0F, 0.0F), radians(3*rotation)));
         earth.setRotation(new Quaternion(new Vector(0.0F, 1.0F, 0.0F), radians(2*rotation)));
-        moon.setRotation(new Quaternion(new Vector(0.0F, 1.0F, 0.0F), radians(4*rotation)));
+        moon.setRotation(new Quaternion(new Vector(0.0F, 1.0F, 0.0F), radians(8*rotation)));
+        mars.setRotation(new Quaternion(new Vector(0.0F, 1.0F, 0.0F), radians(5*rotation)));
 
     }
 
