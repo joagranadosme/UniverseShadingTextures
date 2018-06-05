@@ -19,21 +19,15 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/build-info/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/build-info/debug/build-info.xml" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/processing/test/toonshading/Sketch$AccelerometerListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/processing/test/toonshading/Sketch$AccelerometerListener.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/processing/test/toonshading/Sketch.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/processing/test/toonshading/Sketch.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/processing/test/toonshading/Sketch$AccelerometerListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/processing/test/toonshading/Sketch$AccelerometerListener.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/processing/test/toonshading/Sketch.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/processing/test/toonshading/Sketch.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_9/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_9/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_9.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_9.apk" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/processing/test/toonshading/Sketch$AccelerometerListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/processing/test/toonshading/Sketch$AccelerometerListener.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/processing/test/toonshading/Sketch.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/processing/test/toonshading/Sketch.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/104/processing/test/toonshading/Sketch$AccelerometerListener.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/104/processing/test/toonshading/Sketch$AccelerometerListener.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/104/processing/test/toonshading/Sketch.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/104/processing/test/toonshading/Sketch.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/9/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/9/classes.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/processing/test/toonshading/Sketch$AccelerometerListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/processing/test/toonshading/Sketch$AccelerometerListener.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/processing/test/toonshading/Sketch.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/processing/test/toonshading/Sketch.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/buildId.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/processing/test/toonshading/Sketch$AccelerometerListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/processing/test/toonshading/Sketch$AccelerometerListener.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/processing/test/toonshading/Sketch.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/processing/test/toonshading/Sketch.class" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/processing/test/toonshading/Sketch.java" afterPath="$PROJECT_DIR$/app/src/main/java/processing/test/toonshading/Sketch.java" />
     </list>
@@ -83,13 +77,13 @@
       <file leaf-file-name="Sketch.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/processing/test/toonshading/Sketch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="197" column="33" lean-forward="false" selection-start-line="197" selection-start-column="33" selection-end-line="197" selection-end-column="33" />
+            <state relative-caret-position="272">
+              <caret line="196" column="0" lean-forward="false" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
               <folding>
                 <element signature="e#1584#1585#0" expanded="true" />
                 <element signature="e#1615#1616#0" expanded="true" />
-                <element signature="e#6624#6625#0" expanded="true" />
-                <element signature="e#6649#6650#0" expanded="true" />
+                <element signature="e#6586#6587#0" expanded="true" />
+                <element signature="e#6611#6612#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2445,8 +2439,8 @@
           <folding>
             <element signature="e#1584#1585#0" expanded="true" />
             <element signature="e#1615#1616#0" expanded="true" />
-            <element signature="e#6624#6625#0" expanded="true" />
-            <element signature="e#6649#6650#0" expanded="true" />
+            <element signature="e#6586#6587#0" expanded="true" />
+            <element signature="e#6611#6612#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2484,8 +2478,8 @@
           <folding>
             <element signature="e#1584#1585#0" expanded="true" />
             <element signature="e#1615#1616#0" expanded="true" />
-            <element signature="e#6624#6625#0" expanded="true" />
-            <element signature="e#6649#6650#0" expanded="true" />
+            <element signature="e#6586#6587#0" expanded="true" />
+            <element signature="e#6611#6612#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2605,13 +2599,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/processing/test/toonshading/Sketch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="197" column="33" lean-forward="false" selection-start-line="197" selection-start-column="33" selection-end-line="197" selection-end-column="33" />
+        <state relative-caret-position="272">
+          <caret line="196" column="0" lean-forward="false" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
           <folding>
             <element signature="e#1584#1585#0" expanded="true" />
             <element signature="e#1615#1616#0" expanded="true" />
-            <element signature="e#6624#6625#0" expanded="true" />
-            <element signature="e#6649#6650#0" expanded="true" />
+            <element signature="e#6586#6587#0" expanded="true" />
+            <element signature="e#6611#6612#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -195,11 +195,10 @@ public class Sketch extends PApplet {
         if(numPointers == 2) {
             d1 = d2;
             d2 = (float)Math.sqrt(Math.pow((me.getX(0)-me.getX(1)),2)+Math.pow((me.getY(0)-me.getY(1)),2));
-            Log.e("Multi", d2-d1 + "");
             if((d2-d1)>0){
-                universe.scale(1.1F);
+                universe.scale(1.05F);
             }else if((d2-d1)<0){
-                universe.scale(0.9F);
+                universe.scale(0.95F);
             }
         }/*
         for(int i=0; i < numPointers; i++) {
