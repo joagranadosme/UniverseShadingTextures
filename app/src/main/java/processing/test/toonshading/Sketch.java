@@ -5,6 +5,8 @@ import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
+import android.util.Log;
+import android.view.MotionEvent;
 
 import frames.primitives.Frame;
 import frames.primitives.Quaternion;
@@ -49,11 +51,14 @@ public class Sketch extends PApplet {
     //Frames for planets.
     private Frame universe, sun, mercury, venus, earth, moon, mars;
 
+    float d1, d2;
+
     //Shaders variables
     PImage sunImage, earthImage, moonImage, mercuryImage, venusImage, marsImage;
     PShape sunShape, earthShape, moonShape, mercuryShape, venusShape, marsShape;
     PShader light;
     int r;
+    float scale;
 
     public void settings() {
         fullScreen(P3D);
@@ -73,6 +78,7 @@ public class Sketch extends PApplet {
         sensor = manager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
         listener = new AccelerometerListener();
         manager.registerListener(listener, sensor, SensorManager.SENSOR_DELAY_GAME);
+
         textFont(createFont("SansSerif", 10 * displayDensity));
 
         //Initialize shader
@@ -117,8 +123,6 @@ public class Sketch extends PApplet {
         marsImage = loadImage( "mars.jpg");
         marsShape = createShape(SPHERE, 35);
         marsShape.setTexture(marsImage);
-
-
 
     }
 
@@ -183,9 +187,31 @@ public class Sketch extends PApplet {
 
     }
 
-    public void mouseDragged() {
-        universe.setTranslation(mouseX, mouseY);
+    public boolean surfaceTouchEvent(MotionEvent me) {
+        int numPointers = me.getPointerCount();
+        if(numPointers == 1) {
+            universe.setTranslation(me.getX(0), me.getY(0));
+        }
+        if(numPointers == 2) {
+            d1 = d2;
+            d2 = (float)Math.sqrt(Math.pow((me.getX(0)-me.getX(1)),2)+Math.pow((me.getY(0)-me.getY(1)),2));
+            Log.e("Multi", d2-d1 + "");
+            if((d2-d1)>0){
+                universe.scale(1.1F);
+            }else if((d2-d1)<0){
+                universe.scale(0.9F);
+            }
+        }/*
+        for(int i=0; i < numPointers; i++) {
+            int pointerId = me.getPointerId(i);
+            float x = me.getX(i);
+            float y = me.getY(i);
+            float siz = me.getSize(i);
+            Log.e("Multi", numPointers + " " + x + " " + y + " " + siz);
+        }*/
+        return super.surfaceTouchEvent(me);
     }
+
 
     public void push() {
         pushStyle();
